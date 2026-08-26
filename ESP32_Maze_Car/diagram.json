@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "author": "Self-Driving Car Simulation",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": -9.6, "left": -14.36, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "ultrasonic_fl", "top": -180, "left": -220, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "ultrasonic_f", "top": -220, "left": -40, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "ultrasonic_fr", "top": -180, "left": 140, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "ultrasonic_l", "top": -40, "left": -240, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "ultrasonic_r", "top": -40, "left": 160, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:GND.1", "ultrasonic_fl:GND", "black", [ "v0" ] ],
+    [ "esp:GND.1", "ultrasonic_f:GND", "black", [ "v0" ] ],
+    [ "esp:GND.1", "ultrasonic_fr:GND", "black", [ "v0" ] ],
+    [ "esp:GND.1", "ultrasonic_l:GND", "black", [ "v0" ] ],
+    [ "esp:GND.1", "ultrasonic_r:GND", "black", [ "v0" ] ],
+    [ "esp:5V", "ultrasonic_fl:VCC", "red", [ "v0" ] ],
+    [ "esp:5V", "ultrasonic_f:VCC", "red", [ "v0" ] ],
+    [ "esp:5V", "ultrasonic_fr:VCC", "red", [ "v0" ] ],
+    [ "esp:5V", "ultrasonic_l:VCC", "red", [ "v0" ] ],
+    [ "esp:5V", "ultrasonic_r:VCC", "red", [ "v0" ] ],
+    [ "esp:13", "ultrasonic_fl:TRIG", "green", [ "v0" ] ],
+    [ "esp:34", "ultrasonic_fl:ECHO", "blue", [ "v0" ] ],
+    [ "esp:12", "ultrasonic_f:TRIG", "green", [ "v0" ] ],
+    [ "esp:35", "ultrasonic_f:ECHO", "blue", [ "v0" ] ],
+    [ "esp:14", "ultrasonic_fr:TRIG", "green", [ "v0" ] ],
+    [ "esp:32", "ultrasonic_fr:ECHO", "blue", [ "v0" ] ],
+    [ "esp:27", "ultrasonic_l:TRIG", "green", [ "v0" ] ],
+    [ "esp:33", "ultrasonic_l:ECHO", "blue", [ "v0" ] ],
+    [ "esp:26", "ultrasonic_r:TRIG", "green", [ "v0" ] ],
+    [ "esp:25", "ultrasonic_r:ECHO", "blue", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}

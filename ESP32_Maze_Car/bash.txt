@@ -1,0 +1,5 @@
+# Move to your project directory
+cd ~/ESP32_Maze_Car  # Adjust path if located elsewhere
+
+# Compile sketch into the build directory
+arduino-cli compile --fqbn esp32:esp32:esp32 sketch.ino --output-dir build/esp32.esp32.esp32
