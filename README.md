@@ -4,6 +4,9 @@
 
 ## Category
 Robo Grand Prix — Elimination Round.
+Target Dimensions: 20*30cm
+Target Weight: 4kg
+Platform: ESP32
 
 ## Project Summary
 An autonomous 4WD skid-steer robot that navigates a tunnel-style track
