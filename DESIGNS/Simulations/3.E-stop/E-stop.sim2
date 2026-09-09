@@ -1,0 +1,229 @@
+<circuit version="2.0.0-" rev="260501" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" anicurr="1" ansi="0" width="3200" height="2400" >
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-1" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-428,-316" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-1" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="false" Out="true" />
+
+<item itemtype="Subcircuit" CircId="devkitC-4" mainComp="false" Show_id="true" Show_Val="false" Pos="-736,56" rotation="0" hflip="1" vflip="1" label="devkitC-4" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Esp32-2" Program="../Arduino/2.simple_motor_driver/build/esp32.esp32.esp32/simple_motor_driver.ino.merged.bin" />
+</item>
+
+<item itemtype="Tunnel" CircId="Tunnel-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-556,-72" rotation="0" hflip="1" vflip="1" label="Tunnel-5" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="18" IsBus="false" />
+
+<item itemtype="Diode" CircId="Diode-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-284,244" rotation="-90" hflip="1" vflip="1" label="Diode-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Model="Diode Default" Threshold="0.634767 V" MaxCurrent="1 A" Resistance="0.05 Ω" BrkDownV="0 V" SatCurrent="171.435 nA" EmCoef="2" />
+
+<item itemtype="Tunnel" CircId="Tunnel-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-536,392" rotation="0" hflip="1" vflip="1" label="Tunnel-7" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CMN_GND" IsBus="false" />
+
+<item itemtype="DcMotor" CircId="DcMotor-8" mainComp="false" Show_id="true" Show_Val="false" Pos="-372,-180" rotation="90" hflip="1" vflip="1" label="DcMotor-8" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="60 _RPM" Volt_Nominal="5 V" Resistance="1 Ω" />
+
+<item itemtype="Mosfet" CircId="Mosfet-9" mainComp="false" Show_id="false" Show_Val="false" Pos="-476,348" rotation="0" hflip="1" vflip="1" label="Mosfet-9" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="0.05 Ω" Threshold="1.5 V" />
+
+<item itemtype="Diode" CircId="Diode-10" mainComp="false" Show_id="false" Show_Val="false" Pos="-848,240" rotation="-90" hflip="1" vflip="1" label="Diode-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Model="Diode Default" Threshold="0.634767 V" MaxCurrent="1 A" Resistance="0.05 Ω" BrkDownV="0 V" SatCurrent="171.435 nA" EmCoef="2" />
+
+<item itemtype="Tunnel" CircId="Tunnel-12" mainComp="false" Show_id="false" Show_Val="false" Pos="-572,196" rotation="0" hflip="1" vflip="1" label="Tunnel-12" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="16" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-13" mainComp="false" Show_id="false" Show_Val="false" Pos="-556,-28" rotation="0" hflip="1" vflip="1" label="Tunnel-13" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CMN_GND" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-14" mainComp="false" Show_id="false" Show_Val="false" Pos="-608,204" rotation="0" hflip="1" vflip="1" label="Tunnel-14" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="4" IsBus="false" />
+
+<item itemtype="Mosfet" CircId="Mosfet-15" mainComp="false" Show_id="false" Show_Val="false" Pos="-496,-72" rotation="0" hflip="1" vflip="1" label="Mosfet-15" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="0.05 Ω" Threshold="1.5 V" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-16" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-408,104" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-16" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="false" Out="true" />
+
+<item itemtype="Ground" CircId="Ground-17" mainComp="false" Show_id="false" Show_Val="false" Pos="20,360" rotation="0" hflip="1" vflip="1" label="Ground-17" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="DcMotor" CircId="DcMotor-18" mainComp="false" Show_id="true" Show_Val="false" Pos="-856,-180" rotation="90" hflip="1" vflip="1" label="DcMotor-18" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="60 _RPM" Volt_Nominal="5 V" Resistance="1 Ω" />
+
+<item itemtype="Mosfet" CircId="Mosfet-19" mainComp="false" Show_id="false" Show_Val="false" Pos="-980,-72" rotation="0" hflip="1" vflip="1" label="Mosfet-19" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="0.05 Ω" Threshold="1.5 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-20" mainComp="false" Show_id="false" Show_Val="false" Pos="-1100,388" rotation="0" hflip="1" vflip="1" label="Tunnel-20" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CMN_GND" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-23" mainComp="false" Show_id="false" Show_Val="false" Pos="-608,152" rotation="0" hflip="1" vflip="1" label="Tunnel-23" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="17" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-24" mainComp="false" Show_id="false" Show_Val="false" Pos="-588,132" rotation="0" hflip="1" vflip="1" label="Tunnel-24" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="18" IsBus="false" />
+
+<item itemtype="Mosfet" CircId="Mosfet-25" mainComp="false" Show_id="false" Show_Val="false" Pos="-1040,344" rotation="0" hflip="1" vflip="1" label="Mosfet-25" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" P_Channel="false" Depletion="false" RDSon="0.05 Ω" Threshold="1.5 V" />
+
+<item itemtype="DcMotor" CircId="DcMotor-26" mainComp="false" Show_id="true" Show_Val="false" Pos="-916,236" rotation="90" hflip="1" vflip="1" label="DcMotor-26" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="60 _RPM" Volt_Nominal="5 V" Resistance="1 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-27" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-972,100" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-27" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="false" Out="true" />
+
+<item itemtype="Resistor" CircId="Resistor-28" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-1072,344" rotation="0" hflip="1" vflip="1" label="Resistor-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-29" mainComp="false" Show_id="false" Show_Val="false" Pos="-532,348" rotation="0" hflip="1" vflip="1" label="Tunnel-29" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="4" IsBus="false" />
+
+<item itemtype="DcMotor" CircId="DcMotor-32" mainComp="false" Show_id="true" Show_Val="false" Pos="-352,240" rotation="90" hflip="1" vflip="1" label="DcMotor-32" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="60 _RPM" Volt_Nominal="5 V" Resistance="1 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-33" mainComp="false" Show_id="false" Show_Val="false" Pos="-1040,-28" rotation="0" hflip="1" vflip="1" label="Tunnel-33" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CMN_GND" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-34" mainComp="false" Show_id="false" Show_Val="false" Pos="-128,332" rotation="0" hflip="1" vflip="1" label="Tunnel-34" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CMN_GND" IsBus="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-36" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-912,-316" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-36" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="false" Out="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-37" mainComp="false" Show_id="false" Show_Val="false" Pos="-1100,344" rotation="0" hflip="1" vflip="1" label="Tunnel-37" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="16" IsBus="false" />
+
+<item itemtype="Resistor" CircId="Resistor-38" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-528,-72" rotation="0" hflip="1" vflip="1" label="Resistor-38" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-39" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-1012,-72" rotation="0" hflip="1" vflip="1" label="Resistor-39" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Diode" CircId="Diode-40" mainComp="false" Show_id="false" Show_Val="false" Pos="-304,-176" rotation="-90" hflip="1" vflip="1" label="Diode-40" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Model="Diode Default" Threshold="0.634767 V" MaxCurrent="1 A" Resistance="0.05 Ω" BrkDownV="0 V" SatCurrent="171.435 nA" EmCoef="2" />
+
+<item itemtype="Tunnel" CircId="Tunnel-41" mainComp="false" Show_id="false" Show_Val="false" Pos="-1036,-72" rotation="0" hflip="1" vflip="1" label="Tunnel-41" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="17" IsBus="false" />
+
+<item itemtype="Resistor" CircId="Resistor-42" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-508,348" rotation="0" hflip="1" vflip="1" label="Resistor-42" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Diode" CircId="Diode-44" mainComp="false" Show_id="false" Show_Val="false" Pos="-788,-176" rotation="-90" hflip="1" vflip="1" label="Diode-44" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Model="Diode Default" Threshold="0.634767 V" MaxCurrent="1 A" Resistance="0.05 Ω" BrkDownV="0 V" SatCurrent="171.435 nA" EmCoef="2" />
+
+<item itemtype="Tunnel" CircId="Tunnel-58" mainComp="false" Show_id="false" Show_Val="false" Pos="-752,224" rotation="0" hflip="1" vflip="1" label="Tunnel-58" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="ESP32_power" IsBus="false" />
+
+<item itemtype="Switch" CircId="Switch-60" mainComp="false" Show_id="false" Show_Val="false" Pos="-56,292" rotation="0" hflip="1" vflip="1" label="Switch-60" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" Checked="true" />
+
+<item itemtype="Tunnel" CircId="Tunnel-63" mainComp="false" Show_id="false" Show_Val="false" Pos="-112,260" rotation="0" hflip="1" vflip="1" label="Tunnel-63" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="ESP32_power" IsBus="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-64" mainComp="false" Show_id="false" Show_Val="false" Pos="-8,208" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-64" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="false" Out="false" />
+
+<item itemtype="TextComponent" CircId="TextComponent-49" mainComp="false" Show_id="false" Show_Val="false" Pos="-272.633,21.4884" rotation="0" hflip="1" vflip="1" label="TextComponent-49" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="3 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="13 _px" Fixed_Width="false" Text="All the sensor GND will be routed to the &#xa;ESP32 GND and all the VCCs to tthe ESP 5V" />
+
+<item itemtype="TextComponent" CircId="TextComponent-65" mainComp="false" Show_id="false" Show_Val="false" Pos="-270.831,103.283" rotation="0" hflip="1" vflip="1" label="TextComponent-65" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="7 _px" Border="4 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="14 _px" Fixed_Width="false" Text="We will have 2 E-stop buttons&#xa;, one directly at the ESP power source&#xa;and the other at common ground" />
+
+<item itemtype="Tunnel" CircId="Tunnel-59" mainComp="false" Show_id="false" Show_Val="false" Pos="292,140" rotation="0" hflip="1" vflip="1" label="Tunnel-59" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="ESP32_power" IsBus="false" />
+
+<item itemtype="SR04" CircId="SR04-51" mainComp="false" Show_id="false" Show_Val="false" Pos="40,-104" rotation="0" hflip="1" vflip="1" label="SR04-51" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" Slider="true" />
+
+<item itemtype="SR04" CircId="SR04-50" mainComp="false" Show_id="false" Show_Val="false" Pos="220,-184" rotation="0" hflip="1" vflip="1" label="SR04-50" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" Slider="true" />
+
+<item itemtype="Subcircuit" CircId="devkitC-48" mainComp="false" Show_id="true" Show_Val="false" Pos="368,-28" rotation="0" hflip="1" vflip="1" label="devkitC-48" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Esp32-2" Program="../Arduino/1.sensor_sim/build/esp32.esp32.esp32/sensor_sim.ino.merged.bin" />
+</item>
+
+<item itemtype="SR04" CircId="SR04-47" mainComp="false" Show_id="false" Show_Val="false" Pos="396,-260" rotation="0" hflip="1" vflip="1" label="SR04-47" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" Slider="true" />
+
+<item itemtype="SR04" CircId="SR04-46" mainComp="false" Show_id="false" Show_Val="false" Pos="756,-108" rotation="0" hflip="1" vflip="1" label="SR04-46" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" Slider="true" />
+
+<item itemtype="SR04" CircId="SR04-45" mainComp="false" Show_id="false" Show_Val="false" Pos="584,-184" rotation="0" hflip="1" vflip="1" label="SR04-45" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" Slider="true" />
+
+<item itemtype="Node" CircId="Node-2" mainComp="false" Pos="-372,-228" />
+
+<item itemtype="Node" CircId="Node-3" mainComp="false" Pos="-352,192" />
+
+<item itemtype="Node" CircId="Node-21" mainComp="false" Pos="-916,188" />
+
+<item itemtype="Node" CircId="Node-22" mainComp="false" Pos="-352,304" />
+
+<item itemtype="Node" CircId="Node-30" mainComp="false" Pos="-916,300" />
+
+<item itemtype="Node" CircId="Node-31" mainComp="false" Pos="-856,-116" />
+
+<item itemtype="Node" CircId="Node-35" mainComp="false" Pos="-372,-116" />
+
+<item itemtype="Node" CircId="Node-43" mainComp="false" Pos="-856,-228" />
+
+<item itemtype="Connector" uid="connector-1" startpinid="Node-31-2" endpinid="Diode-44-lPin" pointList="-856,-116,-788,-116,-788,-160" />
+
+<item itemtype="Connector" uid="connector-2" startpinid="Fixed Voltage-36-outnod" endpinid="Node-43-1" pointList="-896,-316,-856,-316,-856,-228" />
+
+<item itemtype="Connector" uid="connector-3" startpinid="Tunnel-37-pin" endpinid="Resistor-28-lPin" pointList="-1100,344,-1088,344" />
+
+<item itemtype="Connector" uid="connector-4" startpinid="Diode-10-rPin" endpinid="Node-21-0" pointList="-848,224,-848,188,-916,188" />
+
+<item itemtype="Connector" uid="connector-5" startpinid="Node-3-2" endpinid="DcMotor-32-lPin" pointList="-352,192,-352,200" />
+
+<item itemtype="Connector" uid="connector-7" startpinid="Tunnel-13-pin" endpinid="Mosfet-15-Sour" pointList="-556,-28,-488,-28,-488,-56" />
+
+<item itemtype="Connector" uid="connector-8" startpinid="Node-43-2" endpinid="DcMotor-18-lPin" pointList="-856,-228,-856,-220" />
+
+<item itemtype="Connector" uid="connector-9" startpinid="Tunnel-14-pin" endpinid="devkitC-4-G04" pointList="-608,204,-608,176,-648,176" />
+
+<item itemtype="Connector" uid="connector-11" startpinid="Node-2-2" endpinid="DcMotor-8-lPin" pointList="-372,-228,-372,-220" />
+
+<item itemtype="Connector" uid="connector-12" startpinid="Mosfet-19-Dren" endpinid="Node-31-1" pointList="-972,-88,-856,-88,-856,-116" />
+
+<item itemtype="Connector" uid="connector-13" startpinid="DcMotor-26-rPin" endpinid="Node-30-0" pointList="-916,276,-916,300" />
+
+<item itemtype="Connector" uid="connector-14" startpinid="Tunnel-7-pin" endpinid="Mosfet-9-Sour" pointList="-536,392,-468,392,-468,364" />
+
+<item itemtype="Connector" uid="connector-15" startpinid="Fixed Voltage-27-outnod" endpinid="Node-21-1" pointList="-956,100,-916,100,-916,188" />
+
+<item itemtype="Connector" uid="connector-16" startpinid="Tunnel-33-pin" endpinid="Mosfet-19-Sour" pointList="-1040,-28,-972,-28,-972,-56" />
+
+<item itemtype="Connector" uid="connector-17" startpinid="Fixed Voltage-16-outnod" endpinid="Node-3-1" pointList="-392,104,-352,104,-352,192" />
+
+<item itemtype="Connector" uid="connector-18" startpinid="Tunnel-24-pin" endpinid="devkitC-4-G18" pointList="-588,132,-588,144,-648,144" />
+
+<item itemtype="Connector" uid="connector-19" startpinid="Diode-40-rPin" endpinid="Node-2-0" pointList="-304,-192,-304,-228,-372,-228" />
+
+<item itemtype="Connector" uid="connector-20" startpinid="Node-22-2" endpinid="Diode-6-lPin" pointList="-352,304,-284,304,-284,260" />
+
+<item itemtype="Connector" uid="connector-21" startpinid="Node-35-2" endpinid="Diode-40-lPin" pointList="-372,-116,-304,-116,-304,-160" />
+
+<item itemtype="Connector" uid="connector-22" startpinid="Diode-44-rPin" endpinid="Node-43-0" pointList="-788,-192,-788,-228,-856,-228" />
+
+<item itemtype="Connector" uid="connector-23" startpinid="Mosfet-15-Dren" endpinid="Node-35-1" pointList="-488,-88,-372,-88,-372,-116" />
+
+<item itemtype="Connector" uid="connector-24" startpinid="Tunnel-12-pin" endpinid="devkitC-4-G16" pointList="-572,196,-572,168,-648,168" />
+
+<item itemtype="Connector" uid="connector-25" startpinid="Node-21-2" endpinid="DcMotor-26-lPin" pointList="-916,188,-916,196" />
+
+<item itemtype="Connector" uid="connector-26" startpinid="Node-30-2" endpinid="Diode-10-lPin" pointList="-916,300,-848,300,-848,256" />
+
+<item itemtype="Connector" uid="connector-27" startpinid="DcMotor-8-rPin" endpinid="Node-35-0" pointList="-372,-140,-372,-116" />
+
+<item itemtype="Connector" uid="connector-28" startpinid="Tunnel-29-pin" endpinid="Resistor-42-lPin" pointList="-532,348,-524,348" />
+
+<item itemtype="Connector" uid="connector-29" startpinid="Diode-6-rPin" endpinid="Node-3-0" pointList="-284,228,-284,192,-352,192" />
+
+<item itemtype="Connector" uid="connector-30" startpinid="Mosfet-9-Dren" endpinid="Node-22-1" pointList="-468,332,-352,332,-352,304" />
+
+<item itemtype="Connector" uid="connector-31" startpinid="Fixed Voltage-1-outnod" endpinid="Node-2-1" pointList="-412,-316,-372,-316,-372,-228" />
+
+<item itemtype="Connector" uid="connector-32" startpinid="Resistor-39-rPin" endpinid="Mosfet-19-Gate" pointList="-996,-72,-996,-72" />
+
+<item itemtype="Connector" uid="connector-33" startpinid="Mosfet-25-Dren" endpinid="Node-30-1" pointList="-1032,328,-916,328,-916,300" />
+
+<item itemtype="Connector" uid="connector-34" startpinid="Resistor-38-rPin" endpinid="Mosfet-15-Gate" pointList="-512,-72,-512,-72" />
+
+<item itemtype="Connector" uid="connector-35" startpinid="DcMotor-32-rPin" endpinid="Node-22-0" pointList="-352,280,-352,304" />
+
+<item itemtype="Connector" uid="connector-36" startpinid="Resistor-28-rPin" endpinid="Mosfet-25-Gate" pointList="-1056,344,-1056,344" />
+
+<item itemtype="Connector" uid="connector-37" startpinid="Tunnel-23-pin" endpinid="devkitC-4-G17" pointList="-608,152,-608,160,-648,160" />
+
+<item itemtype="Connector" uid="connector-38" startpinid="DcMotor-18-rPin" endpinid="Node-31-0" pointList="-856,-140,-856,-116" />
+
+<item itemtype="Connector" uid="connector-39" startpinid="Tunnel-41-pin" endpinid="Resistor-39-lPin" pointList="-1036,-72,-1028,-72" />
+
+<item itemtype="Connector" uid="connector-40" startpinid="Tunnel-5-pin" endpinid="Resistor-38-lPin" pointList="-556,-72,-544,-72" />
+
+<item itemtype="Connector" uid="connector-41" startpinid="Tunnel-20-pin" endpinid="Mosfet-25-Sour" pointList="-1100,388,-1032,388,-1032,360" />
+
+<item itemtype="Connector" uid="connector-42" startpinid="Resistor-42-rPin" endpinid="Mosfet-9-Gate" pointList="-492,348,-492,348" />
+
+<item itemtype="Connector" uid="Connector-63" startpinid="Tunnel-58-pin" endpinid="devkitC-4-5V" pointList="-752,224,-736,224" />
+
+<item itemtype="Connector" uid="Connector-71" startpinid="Tunnel-34-pin" endpinid="Switch-60-pinP0" pointList="-128,332,-72,332,-72,292" />
+
+<item itemtype="Connector" uid="Connector-72" startpinid="Switch-60-switch0pinN" endpinid="Ground-17-Gnd" pointList="-40,292,-36,292,-36,332,20,332,20,344" />
+
+<item itemtype="Connector" uid="Connector-73" startpinid="Fixed Voltage-64-outnod" endpinid="Tunnel-63-pin" pointList="8,208,8,260,-112,260" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Tunnel-59-pin" endpinid="devkitC-48-5V" pointList="292,140,368,140" />
+
+<item itemtype="Connector" uid="connector-52" startpinid="SR04-45-trigpin" endpinid="devkitC-48-G19" pointList="584,-136,584,52,456,52" />
+
+<item itemtype="Connector" uid="connector-51" startpinid="SR04-46-outpin" endpinid="devkitC-48-G26" pointList="764,-60,764,172,324,172,324,68,368,68" />
+
+<item itemtype="Connector" uid="connector-50" startpinid="SR04-47-trigpin" endpinid="devkitC-48-G05" pointList="396,-212,396,-64,464,-64,464,68,456,68" />
+
+<item itemtype="Connector" uid="connector-49" startpinid="SR04-51-outpin" endpinid="devkitC-48-G23" pointList="48,-56,48,-32,160,-32,160,-80,524,-80,524,4,456,4" />
+
+<item itemtype="Connector" uid="connector-48" startpinid="SR04-50-trigpin" endpinid="devkitC-48-G17" pointList="220,-136,220,-52,480,-52,480,76,456,76" />
+
+<item itemtype="Connector" uid="connector-47" startpinid="SR04-50-outpin" endpinid="devkitC-48-G16" pointList="228,-136,228,-60,488,-60,488,84,456,84" />
+
+<item itemtype="Connector" uid="connector-46" startpinid="SR04-51-trigpin" endpinid="devkitC-48-G22" pointList="40,-56,40,-48,508,-48,508,12,456,12" />
+
+<item itemtype="Connector" uid="connector-45" startpinid="SR04-46-trigpin" endpinid="devkitC-48-G25" pointList="756,-60,756,184,312,184,312,60,368,60" />
+
+<item itemtype="Connector" uid="connector-44" startpinid="SR04-45-outpin" endpinid="devkitC-48-G21" pointList="592,-136,592,36,456,36" />
+
+<item itemtype="Connector" uid="connector-43" startpinid="SR04-47-outpin" endpinid="devkitC-48-G18" pointList="404,-212,404,-72,472,-72,472,60,456,60" />
+
+</circuit>

@@ -1,0 +1,109 @@
+<circuit version="2.0.0-" rev="260328" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" anicurr="0" ansi="0" width="3200" height="2400" >
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-3" mainComp="false" Show_id="true" Show_Val="false" Pos="-588,-60" rotation="-180" hflip="-1" vflip="1" label="Button" idLabPos="-55.4674,4.92715" labelrot="180" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="true" Out="false" />
+
+<item itemtype="Probe" CircId="Probe-6" mainComp="false" Show_id="true" Show_Val="false" Pos="-588,-60" rotation="-225" hflip="1" vflip="1" label="Button Out" idLabPos="12.858,34.0279" labelrot="225" valLabPos="-1.71335,17.3666" valLabRot="225" ShowVolt="false" Threshold="2.5 V" Small="true" Pause="false" />
+
+<item itemtype="SerialTerm" CircId="SerialTerm-11" mainComp="false" Show_id="false" Show_Val="false" Pos="-388,-44" rotation="0" hflip="1" vflip="1" label="SerialTerm-11" idLabPos="-20,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" Baudrate="115200 _Bd" DataBits="8 _bits" StopBits="1 _bits" SerialMon="false" />
+
+<item itemtype="Aip31068_i2c" CircId="Aip31068_i2c-13" mainComp="false" Show_id="false" Show_Val="false" Pos="-420,-132" rotation="0" hflip="1" vflip="1" label="Aip31068_i2c-13" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2" Cols="16" Control_Code="62" Frequency="100 _kHz" />
+
+<item itemtype="Pcd8544" CircId="Pcd8544-19" mainComp="false" Show_id="false" Show_Val="false" Pos="-260,-76" rotation="0" hflip="1" vflip="1" label="Pcd8544-19" idLabPos="-32,-66" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="LAnalizer" CircId="LAnalizer-31" mainComp="false" Show_id="false" Show_Val="false" Pos="-508,68" rotation="0" hflip="1" vflip="1" label="LAnalizer-31" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="300 _px" Basic_Y="135 _px" BufferSize="200000" connectGnd="true" InputImped="10 MΩ" TestTime="0 ns" DoTest="false" TimDiv="200000000000" TimPos="0" VolDiv="0.15" Tunnels="TX,SCL,SDA,CK,DI,DC,CS,PWM," Trigger="7" TimeStep="1000 _ps" AutoExport="false" TresholdR="2.5 V" Bus="false,false,false,false,false,false,false,false," TresholdF="2.5 V" />
+
+<item itemtype="Subcircuit" CircId="devkitC-46" mainComp="false" Show_id="false" Show_Val="false" Pos="-556,-196" rotation="0" hflip="1" vflip="1" label="devkitC-46" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Esp32-2" Program="devkitc_test/build/esp32.esp32.esp32doit-devkit-v1/devkitc_test.ino.merged.bin" />
+</item>
+
+<item itemtype="Probe" CircId="Probe-60" mainComp="false" Show_id="true" Show_Val="false" Pos="-588,-108" rotation="-135" hflip="1" vflip="1" label="Blink" idLabPos="23.7627,-16.4081" labelrot="135" valLabPos="16,0" valLabRot="135" ShowVolt="false" Threshold="2.5 V" Small="false" Pause="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-62" mainComp="false" Show_id="false" Show_Val="false" Pos="-460,-92" rotation="0" hflip="-1" vflip="1" label="Tunnel-62" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PWM" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-64" mainComp="false" Show_id="false" Show_Val="false" Pos="-460,-148" rotation="0" hflip="-1" vflip="1" label="Tunnel-64" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="TX" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-66" mainComp="false" Show_id="false" Show_Val="false" Pos="-460,-132" rotation="0" hflip="-1" vflip="1" label="Tunnel-66" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="SDA" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-68" mainComp="false" Show_id="false" Show_Val="false" Pos="-460,-156" rotation="0" hflip="-1" vflip="1" label="Tunnel-68" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="SCL" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-70" mainComp="false" Show_id="false" Show_Val="false" Pos="-460,-164" rotation="0" hflip="-1" vflip="1" label="Tunnel-70" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="DI" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-72" mainComp="false" Show_id="false" Show_Val="false" Pos="-404,-116" rotation="-90" hflip="-1" vflip="1" label="Tunnel-72" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="SDA" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-73" mainComp="false" Show_id="false" Show_Val="false" Pos="-396,-116" rotation="-90" hflip="-1" vflip="1" label="Tunnel-73" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="SCL" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-74" mainComp="false" Show_id="false" Show_Val="false" Pos="-420,-52" rotation="0" hflip="1" vflip="1" label="Tunnel-74" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="RX" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-75" mainComp="false" Show_id="false" Show_Val="false" Pos="-460,-140" rotation="0" hflip="-1" vflip="1" label="Tunnel-75" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="RX" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-76" mainComp="false" Show_id="false" Show_Val="false" Pos="-420,-36" rotation="0" hflip="1" vflip="1" label="Tunnel-76" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="TX" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-77" mainComp="false" Show_id="false" Show_Val="false" Pos="-228,-32" rotation="-90" hflip="-1" vflip="1" label="Tunnel-77" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CK" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-78" mainComp="false" Show_id="false" Show_Val="false" Pos="-244,-32" rotation="-90" hflip="-1" vflip="1" label="Tunnel-78" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="DI" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-79" mainComp="false" Show_id="false" Show_Val="false" Pos="-260,-32" rotation="-90" hflip="-1" vflip="1" label="Tunnel-79" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="DC" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-80" mainComp="false" Show_id="false" Show_Val="false" Pos="-276,-32" rotation="-90" hflip="-1" vflip="1" label="Tunnel-80" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CS" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-81" mainComp="false" Show_id="false" Show_Val="false" Pos="-292,-32" rotation="-90" hflip="-1" vflip="1" label="Tunnel-81" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="RS" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-82" mainComp="false" Show_id="false" Show_Val="false" Pos="-460,-100" rotation="0" hflip="-1" vflip="1" label="Tunnel-82" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CS" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-83" mainComp="false" Show_id="false" Show_Val="false" Pos="-460,-108" rotation="0" hflip="-1" vflip="1" label="Tunnel-83" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CK" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-84" mainComp="false" Show_id="false" Show_Val="false" Pos="-460,-116" rotation="0" hflip="-1" vflip="1" label="Tunnel-84" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="RS" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-85" mainComp="false" Show_id="false" Show_Val="false" Pos="-460,-84" rotation="0" hflip="-1" vflip="1" label="Tunnel-85" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="DC" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-86" mainComp="false" Show_id="false" Show_Val="false" Pos="-396,-76" rotation="0" hflip="1" vflip="1" label="Tunnel-86" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="PWM" IsBus="false" />
+
+<item itemtype="Led" CircId="Led-87" mainComp="false" Show_id="false" Show_Val="false" Pos="-372,-76" rotation="0" hflip="1" vflip="1" label="Led-87" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="10 Ω" />
+
+<item itemtype="Connector" uid="Connector-215" startpinid="devkitC-46-G27" endpinid="Probe-60-inpin" pointList="-556,-92,-572,-92" />
+
+<item itemtype="Connector" uid="Connector-223" startpinid="devkitC-46-G17" endpinid="Tunnel-62-pin" pointList="-468,-92,-460,-92" />
+
+<item itemtype="Connector" uid="Connector-239" startpinid="devkitC-46-G23" endpinid="Tunnel-70-pin" pointList="-468,-164,-460,-164" />
+
+<item itemtype="Connector" uid="Connector-240" startpinid="Tunnel-66-pin" endpinid="devkitC-46-G21" pointList="-460,-132,-468,-132" />
+
+<item itemtype="Connector" uid="Connector-241" startpinid="devkitC-46-G22" endpinid="Tunnel-68-pin" pointList="-468,-156,-460,-156" />
+
+<item itemtype="Connector" uid="Connector-242" startpinid="Tunnel-72-pin" endpinid="Aip31068_i2c-13PinSDA" pointList="-404,-116,-404,-124" />
+
+<item itemtype="Connector" uid="Connector-243" startpinid="Tunnel-73-pin" endpinid="Aip31068_i2c-13PinSCL" pointList="-396,-116,-396,-124" />
+
+<item itemtype="Connector" uid="Connector-244" startpinid="Tunnel-64-pin" endpinid="devkitC-46-TX" pointList="-460,-148,-468,-148" />
+
+<item itemtype="Connector" uid="Connector-245" startpinid="Tunnel-75-pin" endpinid="devkitC-46-RX" pointList="-460,-140,-468,-140" />
+
+<item itemtype="Connector" uid="Connector-246" startpinid="Tunnel-76-pin" endpinid="SerialTerm-11-pin1" pointList="-420,-36,-412,-36" />
+
+<item itemtype="Connector" uid="Connector-247" startpinid="Tunnel-74-pin" endpinid="SerialTerm-11-pin0" pointList="-420,-52,-412,-52" />
+
+<item itemtype="Connector" uid="Connector-248" startpinid="Tunnel-77-pin" endpinid="Pcd8544-19-PinScl" pointList="-228,-32,-228,-36" />
+
+<item itemtype="Connector" uid="Connector-249" startpinid="Tunnel-78-pin" endpinid="Pcd8544-19-PinSi" pointList="-244,-32,-244,-36" />
+
+<item itemtype="Connector" uid="Connector-250" startpinid="Tunnel-81-pin" endpinid="Pcd8544-19-PinRst" pointList="-292,-32,-292,-36" />
+
+<item itemtype="Connector" uid="Connector-251" startpinid="Tunnel-79-pin" endpinid="Pcd8544-19-PinDc" pointList="-260,-32,-260,-36" />
+
+<item itemtype="Connector" uid="Connector-252" startpinid="Tunnel-80-pin" endpinid="Pcd8544-19-PinCs" pointList="-276,-32,-276,-36" />
+
+<item itemtype="Connector" uid="Connector-255" startpinid="Tunnel-82-pin" endpinid="devkitC-46-G05" pointList="-460,-100,-468,-100" />
+
+<item itemtype="Connector" uid="Connector-256" startpinid="Tunnel-83-pin" endpinid="devkitC-46-G18" pointList="-460,-108,-468,-108" />
+
+<item itemtype="Connector" uid="Connector-257" startpinid="Tunnel-84-pin" endpinid="devkitC-46-G19" pointList="-460,-116,-468,-116" />
+
+<item itemtype="Connector" uid="Connector-258" startpinid="Tunnel-85-pin" endpinid="devkitC-46-G16" pointList="-460,-84,-468,-84" />
+
+<item itemtype="Connector" uid="Connector-259" startpinid="Fixed Voltage-3-outnod" endpinid="devkitC-46-G13" pointList="-572,-60,-556,-60" />
+
+<item itemtype="Connector" uid="Connector-260" startpinid="Probe-6-inpin" endpinid="devkitC-46-G12" pointList="-572,-76,-556,-76" />
+
+<item itemtype="Connector" uid="Connector-261" startpinid="Led-87-lPin" endpinid="Tunnel-86-pin" pointList="-388,-76,-396,-76" />
+
+</circuit>

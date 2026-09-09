@@ -1,0 +1,456 @@
+<comptree>
+  <category name="Meters" hidden="0" expanded="1" > 
+    <component name="Probe" hidden="0" shortcut="" />
+    <component name="Voltimeter" hidden="0" shortcut="" />
+    <component name="Amperimeter" hidden="0" shortcut="" />
+    <component name="FreqMeter" hidden="0" shortcut="" />
+    <component name="Oscope" hidden="0" shortcut="" />
+    <component name="LAnalizer" hidden="0" shortcut="" />
+  </category>
+  <category name="Sources" hidden="0" expanded="1" > 
+    <component name="Fixed Voltage" hidden="0" shortcut="" />
+    <component name="Clock" hidden="0" shortcut="" />
+    <component name="WaveGen" hidden="0" shortcut="" />
+    <component name="Voltage Source" hidden="0" shortcut="" />
+    <component name="Current Source" hidden="0" shortcut="" />
+    <component name="Csource" hidden="0" shortcut="" />
+    <component name="Battery" hidden="0" shortcut="" />
+    <component name="Rail" hidden="0" shortcut="" />
+    <component name="Ground" hidden="0" shortcut="" />
+  </category>
+  <category name="Switches" hidden="0" expanded="1" > 
+    <component name="Push" hidden="0" shortcut="" />
+    <component name="Switch" hidden="0" shortcut="" />
+    <component name="SwitchDip" hidden="0" shortcut="" />
+    <component name="RelaySPST" hidden="0" shortcut="" />
+    <component name="KeyPad" hidden="0" shortcut="" />
+  </category>
+  <category name="Passive" hidden="0" expanded="1" > 
+    <category name="Resistors" hidden="0" expanded="1" > 
+      <component name="Resistor" hidden="0" shortcut="" />
+      <component name="ResistorDip" hidden="0" shortcut="" />
+      <component name="Potentiometer" hidden="0" shortcut="" />
+      <component name="VarResistor" hidden="0" shortcut="" />
+    </category>
+    <category name="Resistive Sensors" hidden="0" expanded="0" > 
+      <component name="LDR" hidden="0" shortcut="" />
+      <component name="Thermistor" hidden="0" shortcut="" />
+      <component name="RTD" hidden="0" shortcut="" />
+      <component name="Strain" hidden="0" shortcut="" />
+    </category>
+    <category name="Reactive" hidden="0" expanded="0" > 
+      <component name="Capacitor" hidden="0" shortcut="" />
+      <component name="elCapacitor" hidden="0" shortcut="" />
+      <component name="VarCapacitor" hidden="0" shortcut="" />
+      <component name="Inductor" hidden="0" shortcut="" />
+      <component name="VarInductor" hidden="0" shortcut="" />
+      <component name="Transformer" hidden="0" shortcut="" />
+    </category>
+  </category>
+  <category name="Active" hidden="0" expanded="1" > 
+    <category name="Rectifiers" hidden="0" expanded="0" > 
+      <component name="Diode" hidden="0" shortcut="" />
+      <component name="Zener" hidden="0" shortcut="" />
+      <component name="SCR" hidden="0" shortcut="" />
+      <component name="Diac" hidden="0" shortcut="" />
+      <component name="Triac" hidden="0" shortcut="" />
+    </category>
+    <category name="Transistors" hidden="0" expanded="0" > 
+      <component name="BJT" hidden="0" shortcut="" />
+      <component name="Mosfet" hidden="0" shortcut="" />
+      <component name="Jfet" hidden="0" shortcut="" />
+    </category>
+    <category name="Other Active" hidden="0" expanded="0" > 
+      <component name="opAmp" hidden="0" shortcut="" />
+      <component name="Comparator" hidden="0" shortcut="" />
+      <component name="VoltReg" hidden="0" shortcut="" />
+      <component name="MuxAnalog" hidden="0" shortcut="" />
+      <component name="Optocoupler" hidden="0" shortcut="" />
+    </category>
+  </category>
+  <category name="Outputs" hidden="0" expanded="1" > 
+    <category name="Leds" hidden="0" expanded="0" > 
+      <component name="Led" hidden="0" shortcut="" />
+      <component name="LedRgb" hidden="0" shortcut="" />
+      <component name="LedBar" hidden="0" shortcut="" />
+      <component name="Seven Segment" hidden="0" shortcut="" />
+      <component name="LedMatrix" hidden="0" shortcut="" />
+      <component name="Max72xx_matrix" hidden="0" shortcut="" />
+      <component name="WS2812" hidden="0" shortcut="" />
+    </category>
+    <category name="Displays" hidden="0" expanded="0" > 
+      <component name="Aip31068_i2c" hidden="0" shortcut="" />
+      <component name="GC9A01A" hidden="0" shortcut="" />
+      <component name="Hd44780" hidden="0" shortcut="" />
+      <component name="Ili9341" hidden="0" shortcut="" />
+      <component name="Ks0108" hidden="0" shortcut="" />
+      <component name="Pcd8544" hidden="0" shortcut="" />
+      <component name="Pcf8833" hidden="0" shortcut="" />
+      <component name="Sh1107" hidden="0" shortcut="" />
+      <component name="Ssd1306" hidden="0" shortcut="" />
+      <component name="St7735" hidden="0" shortcut="" />
+      <component name="St7789" hidden="0" shortcut="" />
+    </category>
+    <category name="Motors" hidden="0" expanded="0" > 
+      <component name="DcMotor" hidden="0" shortcut="" />
+      <component name="Stepper" hidden="0" shortcut="" />
+      <component name="Servo" hidden="0" shortcut="" />
+    </category>
+    <category name="Other Outputs" hidden="0" expanded="0" > 
+      <component name="AudioOut" hidden="0" shortcut="" />
+      <component name="Lamp" hidden="0" shortcut="" />
+    </category>
+  </category>
+  <category name="Micro" hidden="0" expanded="1" > 
+    <category name="Arduino" hidden="0" expanded="0" > 
+      <component name="Uno" hidden="0" shortcut="" />
+      <component name="Mega" hidden="0" shortcut="" />
+      <component name="Nano" hidden="0" shortcut="" />
+      <component name="Duemilanove" hidden="0" shortcut="" />
+    </category>
+    <category name="AVR" hidden="0" expanded="0" > 
+      <category name="attiny" hidden="0" expanded="0" > 
+        <component name="tiny13" hidden="0" shortcut="" />
+        <component name="tiny24" hidden="0" shortcut="" />
+        <component name="tiny25" hidden="0" shortcut="" />
+        <component name="tiny44" hidden="0" shortcut="" />
+        <component name="tiny45" hidden="0" shortcut="" />
+        <component name="tiny84" hidden="0" shortcut="" />
+        <component name="tiny85" hidden="0" shortcut="" />
+        <component name="tiny2313" hidden="0" shortcut="" />
+        <component name="tiny4313" hidden="0" shortcut="" />
+      </category>
+      <category name="atmega" hidden="0" expanded="0" > 
+        <component name="mega8" hidden="0" shortcut="" />
+        <component name="m8 TQFP" hidden="0" shortcut="" />
+        <component name="mega16" hidden="0" shortcut="" />
+        <component name="mega32" hidden="0" shortcut="" />
+        <component name="mega48" hidden="0" shortcut="" />
+        <component name="m48 TQFP" hidden="0" shortcut="" />
+        <component name="mega64" hidden="0" shortcut="" />
+        <component name="mega88" hidden="0" shortcut="" />
+        <component name="m88 TQFP" hidden="0" shortcut="" />
+        <component name="mega128" hidden="0" shortcut="" />
+        <component name="mega164" hidden="0" shortcut="" />
+        <component name="mega168" hidden="0" shortcut="" />
+        <component name="m168 TQFP" hidden="0" shortcut="" />
+        <component name="mega324" hidden="0" shortcut="" />
+        <component name="mega328" hidden="0" shortcut="" />
+        <component name="m328 TQFP" hidden="0" shortcut="" />
+        <component name="mega328PB" hidden="0" shortcut="" />
+        <component name="mega640" hidden="0" shortcut="" />
+        <component name="mega644" hidden="0" shortcut="" />
+        <component name="mega1280" hidden="0" shortcut="" />
+        <component name="mega1281" hidden="0" shortcut="" />
+        <component name="mega1284" hidden="0" shortcut="" />
+        <component name="mega2560" hidden="0" shortcut="" />
+        <component name="mega2561" hidden="0" shortcut="" />
+      </category>
+    </category>
+    <category name="PIC" hidden="0" expanded="0" > 
+      <category name="p10F" hidden="0" expanded="0" > 
+        <component name="p10F200" hidden="0" shortcut="" />
+        <component name="p10F202" hidden="0" shortcut="" />
+        <component name="p10F204" hidden="0" shortcut="" />
+        <component name="p10F206" hidden="0" shortcut="" />
+      </category>
+      <category name="p12F" hidden="0" expanded="0" > 
+        <component name="p12F629" hidden="0" shortcut="" />
+        <component name="p12F675" hidden="0" shortcut="" />
+        <component name="p12F683" hidden="0" shortcut="" />
+      </category>
+      <category name="p16F" hidden="0" expanded="0" > 
+        <component name="p16F72" hidden="0" shortcut="" />
+        <component name="p16F83" hidden="0" shortcut="" />
+        <component name="p16F84" hidden="0" shortcut="" />
+        <component name="p16F88" hidden="0" shortcut="" />
+        <component name="p16F627" hidden="0" shortcut="" />
+        <component name="p16F628" hidden="0" shortcut="" />
+        <component name="p16F630" hidden="0" shortcut="" />
+        <component name="p16F648" hidden="0" shortcut="" />
+        <component name="p16F676" hidden="0" shortcut="" />
+        <component name="p16F684" hidden="0" shortcut="" />
+        <component name="p16F685" hidden="0" shortcut="" />
+        <component name="p16F687" hidden="0" shortcut="" />
+        <component name="p16F689" hidden="0" shortcut="" />
+        <component name="p16F690" hidden="0" shortcut="" />
+        <component name="p16F873" hidden="0" shortcut="" />
+        <component name="p16F874" hidden="0" shortcut="" />
+        <component name="p16F876" hidden="0" shortcut="" />
+        <component name="p16F877" hidden="0" shortcut="" />
+        <component name="p16F882" hidden="0" shortcut="" />
+        <component name="p16F883" hidden="0" shortcut="" />
+        <component name="p16F884" hidden="0" shortcut="" />
+        <component name="p16F886" hidden="0" shortcut="" />
+        <component name="p16F887" hidden="0" shortcut="" />
+      </category>
+      <category name="p16F (Enhanced)" hidden="0" expanded="0" > 
+        <component name="p16F1826" hidden="0" shortcut="" />
+      </category>
+    </category>
+    <category name="I51" hidden="0" expanded="0" > 
+      <component name="8051" hidden="0" shortcut="" />
+    </category>
+    <category name="MCS65" hidden="0" expanded="0" > 
+      <component name="6502" hidden="0" shortcut="" />
+      <component name="6520" hidden="0" shortcut="" />
+      <component name="6522" hidden="0" shortcut="" />
+      <component name="6532" hidden="0" shortcut="" />
+    </category>
+    <category name="Z80" hidden="0" expanded="0" > 
+      <component name="Z80" hidden="0" shortcut="" />
+      <component name="ULA ZX48k" hidden="0" shortcut="" />
+    </category>
+    <category name="STM32" hidden="0" expanded="0" > 
+    </category>
+    <category name="Espressif" hidden="0" expanded="0" > 
+      <component name="Esp32" hidden="0" shortcut="" />
+      <component name="devkitC" hidden="0" shortcut="" />
+      <component name="Wroom32" hidden="0" shortcut="" />
+    </category>
+    <category name="Shields" hidden="0" expanded="0" > 
+    </category>
+    <category name="Sensors" hidden="0" expanded="0" > 
+      <component name="SR04" hidden="0" shortcut="" />
+      <component name="Dht22" hidden="0" shortcut="" />
+      <component name="DS1621" hidden="0" shortcut="" />
+      <component name="DS18B20" hidden="0" shortcut="" />
+    </category>
+    <category name="Peripherals" hidden="0" expanded="0" > 
+      <component name="SdCard" hidden="0" shortcut="" />
+      <component name="SerialPort" hidden="0" shortcut="" />
+      <component name="SerialTerm" hidden="0" shortcut="" />
+      <component name="TouchPadR" hidden="0" shortcut="" />
+      <component name="KY023" hidden="0" shortcut="" />
+      <component name="KY040" hidden="0" shortcut="" />
+      <component name="DS1307" hidden="0" shortcut="" />
+      <component name="Esp01" hidden="0" shortcut="" />
+      <component name="I2C Digipot" hidden="0" shortcut="" />
+      <component name="SPI Digipot" hidden="0" shortcut="" />
+      <component name="Parallel Digipot" hidden="0" shortcut="" />
+    </category>
+  </category>
+  <category name="Logic" hidden="0" expanded="1" > 
+    <category name="Gates" hidden="0" expanded="0" > 
+      <component name="Buffer" hidden="0" shortcut="" />
+      <component name="And Gate" hidden="0" shortcut="" />
+      <component name="Or Gate" hidden="0" shortcut="" />
+      <component name="Xor Gate" hidden="0" shortcut="" />
+    </category>
+    <category name="Arithmetic" hidden="0" expanded="0" > 
+      <component name="Counter" hidden="0" shortcut="" />
+      <component name="BinCounter" hidden="0" shortcut="" />
+      <component name="FullAdder" hidden="0" shortcut="" />
+      <component name="MagnitudeComp" hidden="0" shortcut="" />
+      <component name="ShiftReg" hidden="0" shortcut="" />
+      <component name="Function" hidden="0" shortcut="" />
+    </category>
+    <category name="Memory" hidden="0" expanded="0" > 
+      <component name="FlipFlopD" hidden="0" shortcut="" />
+      <component name="FlipFlopT" hidden="0" shortcut="" />
+      <component name="FlipFlopRS" hidden="0" shortcut="" />
+      <component name="FlipFlopJK" hidden="0" shortcut="" />
+      <component name="LatchD" hidden="0" shortcut="" />
+      <component name="Memory" hidden="0" shortcut="" />
+      <component name="DynamicMemory" hidden="0" shortcut="" />
+      <component name="I2CRam" hidden="0" shortcut="" />
+    </category>
+    <category name="Converters" hidden="0" expanded="0" > 
+      <component name="Mux" hidden="0" shortcut="" />
+      <component name="Demux" hidden="0" shortcut="" />
+      <component name="BcdToDec" hidden="0" shortcut="" />
+      <component name="DecToBcd" hidden="0" shortcut="" />
+      <component name="BcdTo7S" hidden="0" shortcut="" />
+      <component name="I2CToParallel" hidden="0" shortcut="" />
+    </category>
+    <category name="Other Logic" hidden="0" expanded="0" > 
+      <component name="ADC" hidden="0" shortcut="" />
+      <component name="DAC" hidden="0" shortcut="" />
+      <component name="7 Seg BCD" hidden="0" shortcut="" />
+      <component name="Lm555" hidden="0" shortcut="" />
+    </category>
+    <category name="7400 Series" hidden="0" expanded="0" > 
+      <category name="00-99" hidden="0" expanded="0" > 
+        <component name="7400" hidden="0" shortcut="" />
+        <component name="7401" hidden="0" shortcut="" />
+        <component name="7402" hidden="0" shortcut="" />
+        <component name="7403" hidden="0" shortcut="" />
+        <component name="7404" hidden="0" shortcut="" />
+        <component name="7405" hidden="0" shortcut="" />
+        <component name="7406" hidden="0" shortcut="" />
+        <component name="7407" hidden="0" shortcut="" />
+        <component name="7408" hidden="0" shortcut="" />
+        <component name="7409" hidden="0" shortcut="" />
+        <component name="7410" hidden="0" shortcut="" />
+        <component name="7411" hidden="0" shortcut="" />
+        <component name="7412" hidden="0" shortcut="" />
+        <component name="7413" hidden="0" shortcut="" />
+        <component name="7414" hidden="0" shortcut="" />
+        <component name="7415" hidden="0" shortcut="" />
+        <component name="7418" hidden="0" shortcut="" />
+        <component name="7420" hidden="0" shortcut="" />
+        <component name="7421" hidden="0" shortcut="" />
+        <component name="7422" hidden="0" shortcut="" />
+        <component name="7424" hidden="0" shortcut="" />
+        <component name="7425" hidden="0" shortcut="" />
+        <component name="7426" hidden="0" shortcut="" />
+        <component name="7427" hidden="0" shortcut="" />
+        <component name="7430" hidden="0" shortcut="" />
+        <component name="7432" hidden="0" shortcut="" />
+        <component name="7433" hidden="0" shortcut="" />
+        <component name="7434" hidden="0" shortcut="" />
+        <component name="7435" hidden="0" shortcut="" />
+        <component name="7436" hidden="0" shortcut="" />
+        <component name="7442" hidden="0" shortcut="" />
+        <component name="7445" hidden="0" shortcut="" />
+        <component name="7446" hidden="0" shortcut="" />
+        <component name="7448" hidden="0" shortcut="" />
+        <component name="7449" hidden="0" shortcut="" />
+        <component name="7456" hidden="0" shortcut="" />
+        <component name="7457" hidden="0" shortcut="" />
+        <component name="7468" hidden="0" shortcut="" />
+        <component name="7469" hidden="0" shortcut="" />
+        <component name="7470" hidden="0" shortcut="" />
+        <component name="7475" hidden="0" shortcut="" />
+        <component name="7482" hidden="0" shortcut="" />
+        <component name="7483" hidden="0" shortcut="" />
+        <component name="7485" hidden="0" shortcut="" />
+        <component name="7486" hidden="0" shortcut="" />
+        <component name="7490" hidden="0" shortcut="" />
+        <component name="7492" hidden="0" shortcut="" />
+        <component name="7493" hidden="0" shortcut="" />
+        <component name="7495" hidden="0" shortcut="" />
+      </category>
+      <category name="100-199" hidden="0" expanded="0" > 
+        <component name="74100" hidden="0" shortcut="" />
+        <component name="74101" hidden="0" shortcut="" />
+        <component name="74102" hidden="0" shortcut="" />
+        <component name="74103" hidden="0" shortcut="" />
+        <component name="74104" hidden="0" shortcut="" />
+        <component name="74105" hidden="0" shortcut="" />
+        <component name="74106" hidden="0" shortcut="" />
+        <component name="74107" hidden="0" shortcut="" />
+        <component name="74109" hidden="0" shortcut="" />
+        <component name="74110" hidden="0" shortcut="" />
+        <component name="74111" hidden="0" shortcut="" />
+        <component name="74112" hidden="0" shortcut="" />
+        <component name="74113" hidden="0" shortcut="" />
+        <component name="74114" hidden="0" shortcut="" />
+        <component name="74115" hidden="0" shortcut="" />
+        <component name="74137" hidden="0" shortcut="" />
+        <component name="74138" hidden="0" shortcut="" />
+        <component name="74139" hidden="0" shortcut="" />
+        <component name="74141" hidden="0" shortcut="" />
+        <component name="74145" hidden="0" shortcut="" />
+        <component name="74151" hidden="0" shortcut="" />
+        <component name="74157" hidden="0" shortcut="" />
+        <component name="74158" hidden="0" shortcut="" />
+        <component name="74159" hidden="0" shortcut="" />
+        <component name="74160" hidden="0" shortcut="" />
+        <component name="74161" hidden="0" shortcut="" />
+        <component name="74162" hidden="0" shortcut="" />
+        <component name="74163" hidden="0" shortcut="" />
+        <component name="74164" hidden="0" shortcut="" />
+        <component name="74165" hidden="0" shortcut="" />
+        <component name="74166" hidden="0" shortcut="" />
+        <component name="74168" hidden="0" shortcut="" />
+        <component name="74169" hidden="0" shortcut="" />
+        <component name="74173" hidden="0" shortcut="" />
+        <component name="74174" hidden="0" shortcut="" />
+        <component name="74175" hidden="0" shortcut="" />
+        <component name="74176" hidden="0" shortcut="" />
+        <component name="74177" hidden="0" shortcut="" />
+        <component name="74178" hidden="0" shortcut="" />
+        <component name="74179" hidden="0" shortcut="" />
+        <component name="74184" hidden="0" shortcut="" />
+        <component name="74185" hidden="0" shortcut="" />
+        <component name="74194" hidden="0" shortcut="" />
+        <component name="74195" hidden="0" shortcut="" />
+      </category>
+      <category name="200-1999" hidden="0" expanded="0" > 
+        <component name="74219" hidden="0" shortcut="" />
+        <component name="74238" hidden="0" shortcut="" />
+        <component name="74242" hidden="0" shortcut="" />
+        <component name="74243" hidden="0" shortcut="" />
+        <component name="74245" hidden="0" shortcut="" />
+        <component name="74246" hidden="0" shortcut="" />
+        <component name="74248" hidden="0" shortcut="" />
+        <component name="74249" hidden="0" shortcut="" />
+        <component name="74251" hidden="0" shortcut="" />
+        <component name="74257" hidden="0" shortcut="" />
+        <component name="74258" hidden="0" shortcut="" />
+        <component name="74259" hidden="0" shortcut="" />
+        <component name="74273" hidden="0" shortcut="" />
+        <component name="74283" hidden="0" shortcut="" />
+        <component name="74295" hidden="0" shortcut="" />
+        <component name="74298" hidden="0" shortcut="" />
+        <component name="74299" hidden="0" shortcut="" />
+        <component name="74323" hidden="0" shortcut="" />
+        <component name="74352" hidden="0" shortcut="" />
+        <component name="74353" hidden="0" shortcut="" />
+        <component name="74354" hidden="0" shortcut="" />
+        <component name="74355" hidden="0" shortcut="" />
+        <component name="74356" hidden="0" shortcut="" />
+        <component name="74357" hidden="0" shortcut="" />
+        <component name="74365" hidden="0" shortcut="" />
+        <component name="74366" hidden="0" shortcut="" />
+        <component name="74367" hidden="0" shortcut="" />
+        <component name="74368" hidden="0" shortcut="" />
+        <component name="74373" hidden="0" shortcut="" />
+        <component name="74374" hidden="0" shortcut="" />
+        <component name="74375" hidden="0" shortcut="" />
+        <component name="74376" hidden="0" shortcut="" />
+        <component name="74393" hidden="0" shortcut="" />
+        <component name="74540" hidden="0" shortcut="" />
+        <component name="74541" hidden="0" shortcut="" />
+        <component name="74573" hidden="0" shortcut="" />
+        <component name="74574" hidden="0" shortcut="" />
+        <component name="74590" hidden="0" shortcut="" />
+        <component name="74591" hidden="0" shortcut="" />
+        <component name="74640" hidden="0" shortcut="" />
+        <component name="74641" hidden="0" shortcut="" />
+        <component name="74642" hidden="0" shortcut="" />
+        <component name="74645" hidden="0" shortcut="" />
+        <component name="74682" hidden="0" shortcut="" />
+        <component name="74684" hidden="0" shortcut="" />
+        <component name="74688" hidden="0" shortcut="" />
+      </category>
+      <category name="2000-up" hidden="0" expanded="0" > 
+        <component name="744017" hidden="0" shortcut="" />
+        <component name="744020" hidden="0" shortcut="" />
+        <component name="744022" hidden="0" shortcut="" />
+        <component name="744024" hidden="0" shortcut="" />
+        <component name="744040" hidden="0" shortcut="" />
+        <component name="744060" hidden="0" shortcut="" />
+        <component name="744094" hidden="0" shortcut="" />
+        <component name="744511" hidden="0" shortcut="" />
+        <component name="744514" hidden="0" shortcut="" />
+        <component name="744515" hidden="0" shortcut="" />
+        <component name="744518" hidden="0" shortcut="" />
+        <component name="744520" hidden="0" shortcut="" />
+        <component name="744543" hidden="0" shortcut="" />
+      </category>
+    </category>
+    <category name="Tools" hidden="0" expanded="1" > 
+      <component name="Encoder" hidden="0" shortcut="" />
+    </category>
+  </category>
+  <category name="Connectors" hidden="0" expanded="1" > 
+    <component name="Bus" hidden="0" shortcut="" />
+    <component name="Tunnel" hidden="0" shortcut="" />
+    <component name="Socket" hidden="0" shortcut="" />
+    <component name="Header" hidden="0" shortcut="" />
+  </category>
+  <category name="Graphical" hidden="0" expanded="1" > 
+    <component name="Image" hidden="0" shortcut="" />
+    <component name="TextComponent" hidden="0" shortcut="" />
+    <component name="Rectangle" hidden="0" shortcut="" />
+    <component name="Ellipse" hidden="0" shortcut="" />
+    <component name="Line" hidden="0" shortcut="" />
+  </category>
+  <category name="Other" hidden="0" expanded="1" > 
+    <component name="Package" hidden="0" shortcut="" />
+    <component name="TestUnit" hidden="0" shortcut="" />
+    <component name="Dial" hidden="0" shortcut="" />
+  </category>
+</comptree>

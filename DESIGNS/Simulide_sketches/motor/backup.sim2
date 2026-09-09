@@ -1,0 +1,107 @@
+<circuit version="2.0.0-" rev="260501" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" anicurr="0" ansi="0" width="3200" height="2400" >
+
+<item itemtype="Subcircuit" CircId="devkitC-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-608,152" rotation="0" hflip="1" vflip="1" label="devkitC-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Esp32-2" Program="../../../../../../../media/user/soft/simulide/tests/MCU/esp32/blink/build/esp32.esp32.esp32doit-devkit-v1/blink.ino.merged.bin" />
+</item>
+
+<item itemtype="Subcircuit" CircId="L298P-4" mainComp="false" Show_id="true" Show_Val="false" Pos="-440,228" rotation="0" hflip="1" vflip="1" label="L298P-4" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Subcircuit" CircId="L298P-5" mainComp="false" Show_id="true" Show_Val="false" Pos="-704,300" rotation="0" hflip="-1" vflip="-1" label="L298P-5" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-10" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-644,320" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-10" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="false" Out="true" />
+
+<item itemtype="DcMotor" CircId="DcMotor-13" mainComp="false" Show_id="true" Show_Val="false" Pos="-760,-224" rotation="0" hflip="1" vflip="1" label="DcMotor-13" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="250 _RPM" Volt_Nominal="12 V" Resistance="100 Ω" />
+
+<item itemtype="DcMotor" CircId="DcMotor-14" mainComp="false" Show_id="true" Show_Val="false" Pos="-384,-224" rotation="0" hflip="-1" vflip="1" label="DcMotor-14" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="250 _RPM" Volt_Nominal="12 V" Resistance="100 Ω" />
+
+<item itemtype="DcMotor" CircId="DcMotor-15" mainComp="false" Show_id="true" Show_Val="false" Pos="-760,448" rotation="0" hflip="1" vflip="1" label="DcMotor-15" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="250 _RPM" Volt_Nominal="12 V" Resistance="100 Ω" />
+
+<item itemtype="DcMotor" CircId="DcMotor-16" mainComp="false" Show_id="true" Show_Val="false" Pos="-384,448" rotation="0" hflip="-1" vflip="1" label="DcMotor-16" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="250 _RPM" Volt_Nominal="12 V" Resistance="100 Ω" />
+
+<item itemtype="Battery" CircId="Battery-18" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-860,308" rotation="0" hflip="1" vflip="1" label="Battery-18" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="24 V" Resistance="1 mΩ" />
+
+<item itemtype="Ground" CircId="Ground-19" mainComp="false" Show_id="false" Show_Val="false" Pos="-832,368" rotation="0" hflip="1" vflip="1" label="Ground-19" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Battery" CircId="Battery-21" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-280,264" rotation="0" hflip="1" vflip="1" label="Battery-21" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="24 V" Resistance="1 mΩ" />
+
+<item itemtype="Ground" CircId="Ground-22" mainComp="false" Show_id="false" Show_Val="false" Pos="-276,316" rotation="0" hflip="1" vflip="1" label="Ground-22" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Node" CircId="Node-6" mainComp="false" Pos="-664,280" />
+
+<item itemtype="Node" CircId="Node-7" mainComp="false" Pos="-672,240" />
+
+<item itemtype="Node" CircId="Node-8" mainComp="false" Pos="-476,244" />
+
+<item itemtype="Node" CircId="Node-9" mainComp="false" Pos="-492,260" />
+
+<item itemtype="Node" CircId="Node-20" mainComp="false" Pos="-832,352" />
+
+<item itemtype="Node" CircId="Node-25" mainComp="false" Pos="-276,300" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="L298P-5-IN1" endpinid="devkitC-1-G13" pointList="-696,292,-608,292,-608,288" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="L298P-5-EnA" endpinid="Node-6-1" pointList="-696,252,-664,252,-664,280" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="L298P-5-IN2" endpinid="Node-6-0" pointList="-696,284,-664,284,-664,280" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="Node-6-2" endpinid="devkitC-1-G12" pointList="-664,280,-628,280,-628,272,-608,272" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="L298P-5-IN3" endpinid="devkitC-1-G14" pointList="-696,276,-648,276,-648,264,-608,264" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="L298P-5-IN4" endpinid="Node-7-1" pointList="-696,268,-672,268,-672,240" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="L298P-5-EnB" endpinid="Node-7-0" pointList="-696,244,-672,244,-672,240" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="Node-7-2" endpinid="devkitC-1-G27" pointList="-672,240,-640,240,-640,256,-608,256" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="L298P-4-IN1" endpinid="devkitC-1-G26" pointList="-448,236,-448,76,-636,76,-636,248,-608,248" />
+
+<item itemtype="Connector" uid="Connector-13" startpinid="L298P-4-EnA" endpinid="Node-8-1" pointList="-448,276,-476,276,-476,244" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="L298P-4-IN2" endpinid="Node-8-0" pointList="-448,244,-476,244" />
+
+<item itemtype="Connector" uid="Connector-15" startpinid="Node-8-2" endpinid="devkitC-1-G25" pointList="-476,244,-476,100,-628,100,-628,240,-608,240" />
+
+<item itemtype="Connector" uid="Connector-18" startpinid="L298P-4-EnB" endpinid="Node-9-1" pointList="-448,284,-492,284,-492,260" />
+
+<item itemtype="Connector" uid="Connector-19" startpinid="L298P-4-IN4" endpinid="Node-9-0" pointList="-448,260,-492,260" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="Node-9-2" endpinid="devkitC-1-G32" pointList="-492,260,-492,116,-620,116,-620,224,-608,224" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="Fixed Voltage-10-outnod" endpinid="devkitC-1-5V" pointList="-628,320,-608,320" />
+
+<item itemtype="Connector" uid="Connector-28" startpinid="L298P-4-IN3" endpinid="devkitC-1-G33" pointList="-448,252,-468,252,-468,192,-436,192,-436,68,-644,68,-644,232,-608,232" />
+
+<item itemtype="Connector" uid="Connector-29" startpinid="DcMotor-14-rPin" endpinid="L298P-4-OUT1" pointList="-424,-224,-424,144,-388,144,-388,236,-400,236" />
+
+<item itemtype="Connector" uid="Connector-30" startpinid="L298P-4-OUT2" endpinid="DcMotor-14-lPin" pointList="-400,244,-344,244,-344,-224" />
+
+<item itemtype="Connector" uid="Connector-31" startpinid="DcMotor-16-rPin" endpinid="L298P-4-OUT3" pointList="-424,448,-424,320,-388,320,-388,252,-400,252" />
+
+<item itemtype="Connector" uid="Connector-32" startpinid="DcMotor-16-lPin" endpinid="L298P-4-OUT4" pointList="-344,448,-344,260,-400,260" />
+
+<item itemtype="Connector" uid="Connector-33" startpinid="DcMotor-15-rPin" endpinid="L298P-5-OUT1" pointList="-720,448,-720,324,-752,324,-752,292,-744,292" />
+
+<item itemtype="Connector" uid="Connector-34" startpinid="DcMotor-15-lPin" endpinid="L298P-5-OUT2" pointList="-800,448,-800,284,-744,284" />
+
+<item itemtype="Connector" uid="Connector-35" startpinid="DcMotor-13-lPin" endpinid="L298P-5-OUT4" pointList="-800,-224,-800,268,-744,268" />
+
+<item itemtype="Connector" uid="Connector-36" startpinid="DcMotor-13-rPin" endpinid="L298P-5-OUT3" pointList="-720,-224,-720,156,-752,156,-752,276,-744,276" />
+
+<item itemtype="Connector" uid="Connector-37" startpinid="Battery-18-lPin" endpinid="L298P-5-Vs" pointList="-876,308,-876,252,-744,252" />
+
+<item itemtype="Connector" uid="Connector-39" startpinid="Node-20-1" endpinid="devkitC-1-GND3" pointList="-832,352,-684,352,-684,296,-620,296,-620,280,-608,280" />
+
+<item itemtype="Connector" uid="Connector-40" startpinid="Battery-18-rPin" endpinid="Node-20-0" pointList="-844,308,-832,308,-832,352" />
+
+<item itemtype="Connector" uid="Connector-41" startpinid="Node-20-2" endpinid="Ground-19-Gnd" pointList="-832,352,-832,352" />
+
+<item itemtype="Connector" uid="Connector-42" startpinid="Battery-21-lPin" endpinid="L298P-4-Vs" pointList="-296,264,-300,264,-300,276,-400,276" />
+
+<item itemtype="Connector" uid="Connector-49" startpinid="Node-25-1" endpinid="devkitC-1-GND1" pointList="-276,300,-364,300,-364,364,-508,364,-508,176,-520,176" />
+
+<item itemtype="Connector" uid="Connector-50" startpinid="Battery-21-rPin" endpinid="Node-25-0" pointList="-264,264,-264,300,-276,300" />
+
+<item itemtype="Connector" uid="Connector-51" startpinid="Node-25-2" endpinid="Ground-22-Gnd" pointList="-276,300,-276,300" />
+
+</circuit>

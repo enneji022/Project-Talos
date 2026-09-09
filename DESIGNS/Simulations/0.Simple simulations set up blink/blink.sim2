@@ -1,0 +1,25 @@
+<circuit version="2.0.0-" rev="260501" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" anicurr="1" ansi="0" width="3200" height="2400" >
+
+<item itemtype="Subcircuit" CircId="devkitC-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-96,-120" rotation="0" hflip="1" vflip="1" label="devkitC-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Esp32-2" Program="../../Arduino/blink/build/esp32.esp32.esp32/blink.ino.merged.bin" />
+</item>
+
+<item itemtype="Led" CircId="Led-2" mainComp="false" Show_id="false" Show_Val="false" Pos="100,-40" rotation="0" hflip="1" vflip="1" label="Led-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-3" mainComp="false" ShowProp="Resistance" Show_id="true" Show_Val="true" Pos="116,16" rotation="0" hflip="1" vflip="1" label="Resistor-3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-164,48" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-4" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="false" Out="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-5" mainComp="false" Show_id="false" Show_Val="false" Pos="60,-96" rotation="0" hflip="-1" vflip="1" label="Tunnel-5" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-6" mainComp="false" Show_id="false" Show_Val="false" Pos="60,-56" rotation="0" hflip="1" vflip="1" label="Tunnel-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" IsBus="false" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="Resistor-3-rPin" endpinid="Led-2-lPin" pointList="132,16,164,16,164,-20,72,-20,72,-40,84,-40" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="Resistor-3-lPin" endpinid="devkitC-1-G02" pointList="100,16,-8,16" />
+
+<item itemtype="Connector" uid="Connector-17" startpinid="Tunnel-6-pin" endpinid="Led-2-rPin" pointList="60,-56,60,-72,132,-72,132,-40,116,-40" />
+
+<item itemtype="Connector" uid="Connector-18" startpinid="devkitC-1-GND1" endpinid="Tunnel-5-pin" pointList="-8,-96,60,-96" />
+
+</circuit>

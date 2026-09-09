@@ -1,0 +1,14 @@
+<!DOCTYPE SimulIDE>
+
+<itemlib>
+
+  <itemset category="Micro/Espressif" type="QemuDevice" folder="esp32" >
+    <item name="Esp32"  icon=":/ic3.png" info="" />
+  </itemset>
+
+  <itemset category="Micro/Espressif" type="Subcircuit" folder="esp32" >
+    <item name="devkitC"  info="" />
+    <item name="Wroom32"  info="" />
+  </itemset>
+
+</itemlib>

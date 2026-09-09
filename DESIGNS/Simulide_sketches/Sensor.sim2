@@ -1,0 +1,39 @@
+<circuit version="2.0.0-" rev="260501" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" anicurr="0" ansi="0" width="3200" height="2400" >
+
+<item itemtype="Subcircuit" CircId="devkitC-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-168,-76" rotation="0" hflip="1" vflip="1" label="devkitC-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Esp32-2" Program="../Arduino/sensor_sim/build/esp32.esp32.esp32/sensor_sim.ino.merged.bin" />
+</item>
+
+<item itemtype="SR04" CircId="SR04-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-140,-308" rotation="0" hflip="1" vflip="1" label="SR04-2" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" Slider="true" />
+
+<item itemtype="SR04" CircId="SR04-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-316,-232" rotation="0" hflip="1" vflip="1" label="SR04-3" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" Slider="true" />
+
+<item itemtype="SR04" CircId="SR04-4" mainComp="false" Show_id="false" Show_Val="false" Pos="48,-232" rotation="0" hflip="1" vflip="1" label="SR04-4" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" Slider="true" />
+
+<item itemtype="SR04" CircId="SR04-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-496,-152" rotation="0" hflip="1" vflip="1" label="SR04-5" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" Slider="true" />
+
+<item itemtype="SR04" CircId="SR04-6" mainComp="false" Show_id="false" Show_Val="false" Pos="220,-156" rotation="0" hflip="1" vflip="1" label="SR04-6" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" Slider="true" />
+
+<item itemtype="TextComponent" CircId="TextComponent-8" mainComp="false" Show_id="false" Show_Val="false" Pos="-808.633,-26.5116" rotation="0" hflip="1" vflip="1" label="TextComponent-8" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="3 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="13 _px" Fixed_Width="false" Text="All the sensor GND will be routed to the &#xa;ESP32 GND and all the VCCs to tthe ESP 5V" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="SR04-2-trigpin" endpinid="devkitC-1-G05" pointList="-140,-260,-140,-112,-72,-112,-72,20,-80,20" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="SR04-2-outpin" endpinid="devkitC-1-G18" pointList="-132,-260,-132,-120,-64,-120,-64,12,-80,12" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="SR04-3-trigpin" endpinid="devkitC-1-G17" pointList="-316,-184,-316,-100,-56,-100,-56,28,-80,28" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="SR04-3-outpin" endpinid="devkitC-1-G16" pointList="-308,-184,-308,-108,-48,-108,-48,36,-80,36" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="SR04-4-trigpin" endpinid="devkitC-1-G19" pointList="48,-184,48,4,-80,4" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="SR04-4-outpin" endpinid="devkitC-1-G21" pointList="56,-184,56,-12,-80,-12" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="SR04-5-trigpin" endpinid="devkitC-1-G22" pointList="-496,-104,-496,-96,-28,-96,-28,-36,-80,-36" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="SR04-5-outpin" endpinid="devkitC-1-G23" pointList="-488,-104,-488,-80,-376,-80,-376,-128,-12,-128,-12,-44,-80,-44" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="SR04-6-outpin" endpinid="devkitC-1-G26" pointList="228,-108,228,124,-212,124,-212,20,-168,20" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="SR04-6-trigpin" endpinid="devkitC-1-G25" pointList="220,-108,220,136,-224,136,-224,12,-168,12" />
+
+</circuit>

@@ -1,0 +1,95 @@
+<circuit version="2.0.0-" rev="260501" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" anicurr="0" ansi="0" width="3200" height="2400" >
+
+<item itemtype="Subcircuit" CircId="devkitC-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-76,12" rotation="0" hflip="1" vflip="1" label="devkitC-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Esp32-2" Program="../../Arduino/motor_test/build/esp32.esp32.esp32/motor_test.ino.merged.bin" />
+</item>
+
+<item itemtype="Subcircuit" CircId="L298P-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-264,76" rotation="0" hflip="-1" vflip="1" label="L298P-2" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Tunnel" CircId="Tunnel-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-220,44" rotation="0" hflip="-1" vflip="1" label="Tunnel-3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="27" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-220,64" rotation="0" hflip="-1" vflip="1" label="Tunnel-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="26" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-220,100" rotation="0" hflip="-1" vflip="1" label="Tunnel-5" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="25" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-220,116" rotation="0" hflip="-1" vflip="1" label="Tunnel-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="33" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-228,148" rotation="0" hflip="-1" vflip="1" label="Tunnel-7" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="14" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-8" mainComp="false" Show_id="false" Show_Val="false" Pos="-228,168" rotation="0" hflip="-1" vflip="1" label="Tunnel-8" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="32" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-9" mainComp="false" Show_id="false" Show_Val="false" Pos="-152,108" rotation="0" hflip="1" vflip="1" label="Tunnel-9" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="26" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-10" mainComp="false" Show_id="false" Show_Val="false" Pos="-152,84" rotation="0" hflip="1" vflip="1" label="Tunnel-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="25" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-11" mainComp="false" Show_id="false" Show_Val="false" Pos="-152,64" rotation="0" hflip="1" vflip="1" label="Tunnel-11" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="33" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-12" mainComp="false" Show_id="false" Show_Val="false" Pos="-152,44" rotation="0" hflip="1" vflip="1" label="Tunnel-12" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="32" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-13" mainComp="false" Show_id="false" Show_Val="false" Pos="-152,120" rotation="0" hflip="1" vflip="1" label="Tunnel-13" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="27" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-14" mainComp="false" Show_id="false" Show_Val="false" Pos="-152,136" rotation="0" hflip="1" vflip="1" label="Tunnel-14" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="14" IsBus="false" />
+
+<item itemtype="DcMotor" CircId="DcMotor-15" mainComp="false" Show_id="true" Show_Val="false" Pos="-392,-8" rotation="0" hflip="1" vflip="1" label="DcMotor-15" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="250 _RPM" Volt_Nominal="12 V" Resistance="100 Ω" />
+
+<item itemtype="DcMotor" CircId="DcMotor-16" mainComp="false" Show_id="true" Show_Val="false" Pos="-392,144" rotation="0" hflip="1" vflip="1" label="DcMotor-16" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="250 _RPM" Volt_Nominal="12 V" Resistance="100 Ω" />
+
+<item itemtype="Ground" CircId="Ground-17" mainComp="false" Show_id="false" Show_Val="false" Pos="-208,224" rotation="-90" hflip="1" vflip="1" label="Ground-17" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-18" mainComp="false" Show_id="false" Show_Val="false" Pos="-240,224" rotation="0" hflip="1" vflip="1" label="Tunnel-18" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CMN_GND" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-19" mainComp="false" Show_id="false" Show_Val="false" Pos="-400,200" rotation="0" hflip="1" vflip="1" label="Tunnel-19" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CMN_GND" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-21" mainComp="false" Show_id="false" Show_Val="false" Pos="-400,220" rotation="0" hflip="1" vflip="1" label="Tunnel-21" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CMN_GND" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-22" mainComp="false" Show_id="false" Show_Val="false" Pos="-400,244" rotation="0" hflip="1" vflip="1" label="Tunnel-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CMN_GND" IsBus="false" />
+
+<item itemtype="Battery" CircId="Battery-24" mainComp="false" Show_id="false" Show_Val="false" Pos="-372,200" rotation="0" hflip="-1" vflip="1" label="Battery-24" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="5 V" Resistance="1 mΩ" />
+
+<item itemtype="Tunnel" CircId="Tunnel-25" mainComp="false" Show_id="false" Show_Val="false" Pos="24,0" rotation="0" hflip="1" vflip="1" label="Tunnel-25" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CMN_GND" IsBus="false" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="Tunnel-3-pin" endpinid="L298P-2-IN1" pointList="-220,44,-248,44,-248,84,-256,84" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="Tunnel-7-pin" endpinid="L298P-2-EnA" pointList="-228,148,-228,124,-256,124" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="Tunnel-4-pin" endpinid="L298P-2-IN2" pointList="-220,64,-220,92,-256,92" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="Tunnel-5-pin" endpinid="L298P-2-IN3" pointList="-220,100,-256,100" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="Tunnel-6-pin" endpinid="L298P-2-IN4" pointList="-220,116,-256,116,-256,108" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="Tunnel-12-pin" endpinid="devkitC-1-G32" pointList="-152,44,-88,44,-88,84,-76,84" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="Tunnel-11-pin" endpinid="devkitC-1-G33" pointList="-152,64,-92,64,-92,92,-76,92" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="Tunnel-10-pin" endpinid="devkitC-1-G25" pointList="-152,84,-96,84,-96,100,-76,100" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="Tunnel-9-pin" endpinid="devkitC-1-G26" pointList="-152,108,-76,108" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="Tunnel-13-pin" endpinid="devkitC-1-G27" pointList="-152,120,-84,120,-84,116,-76,116" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="Tunnel-14-pin" endpinid="devkitC-1-G14" pointList="-152,136,-88,136,-88,124,-76,124" />
+
+<item itemtype="Connector" uid="Connector-13" startpinid="DcMotor-15-rPin" endpinid="L298P-2-OUT1" pointList="-352,-8,-352,84,-304,84" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="DcMotor-15-lPin" endpinid="L298P-2-OUT2" pointList="-432,-8,-432,92,-304,92" />
+
+<item itemtype="Connector" uid="Connector-15" startpinid="DcMotor-16-lPin" endpinid="L298P-2-OUT4" pointList="-432,144,-432,108,-304,108" />
+
+<item itemtype="Connector" uid="Connector-16" startpinid="DcMotor-16-rPin" endpinid="L298P-2-OUT3" pointList="-352,144,-336,144,-336,100,-304,100" />
+
+<item itemtype="Connector" uid="Connector-17" startpinid="Tunnel-18-pin" endpinid="Ground-17-Gnd" pointList="-240,224,-224,224" />
+
+<item itemtype="Connector" uid="Connector-25" startpinid="Tunnel-8-pin" endpinid="L298P-2-EnB" pointList="-228,168,-244,168,-244,132,-256,132" />
+
+<item itemtype="Connector" uid="Connector-27" startpinid="Tunnel-19-pin" endpinid="Battery-24-rPin" pointList="-400,200,-388,200" />
+
+<item itemtype="Connector" uid="Connector-28" startpinid="Battery-24-lPin" endpinid="L298P-2-Vs" pointList="-356,200,-328,200,-328,124,-304,124" />
+
+<item itemtype="Connector" uid="Connector-30" startpinid="Tunnel-22-pin" endpinid="L298P-2-SenB" pointList="-400,244,-304,244,-304,140" />
+
+<item itemtype="Connector" uid="Connector-31" startpinid="Tunnel-21-pin" endpinid="L298P-2-SenA" pointList="-400,220,-320,220,-320,132,-304,132" />
+
+<item itemtype="Connector" uid="Connector-32" startpinid="Tunnel-25-pin" endpinid="devkitC-1-GND1" pointList="24,0,24,36,12,36" />
+
+</circuit>

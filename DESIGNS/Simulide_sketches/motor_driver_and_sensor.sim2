@@ -1,0 +1,153 @@
+<circuit version="2.0.0-" rev="260501" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" anicurr="0" ansi="0" width="3200" height="2400" >
+
+<item itemtype="Subcircuit" CircId="devkitC-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-100,372" rotation="0" hflip="1" vflip="1" label="devkitC-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Esp32-2" Program="../Arduino/motor_demo/project1_motor_demo/build/esp32.esp32.esp32/project1_motor_demo.ino.merged.bin" />
+</item>
+
+<item itemtype="Subcircuit" CircId="L298P-4" mainComp="false" Show_id="true" Show_Val="false" Pos="68,444" rotation="0" hflip="1" vflip="1" label="L298P-4" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Subcircuit" CircId="L298P-5" mainComp="false" Show_id="true" Show_Val="false" Pos="-196,516" rotation="0" hflip="-1" vflip="-1" label="L298P-5" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Package="1- Logic Symbol" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-10" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-136,540" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-10" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Small="false" Out="true" />
+
+<item itemtype="DcMotor" CircId="DcMotor-13" mainComp="false" ShowProp="Volt_Nominal" Show_id="true" Show_Val="true" Pos="-252,-8" rotation="0" hflip="1" vflip="1" label="DcMotor-13" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="250 _RPM" Volt_Nominal="12 V" Resistance="100 Ω" />
+
+<item itemtype="DcMotor" CircId="DcMotor-14" mainComp="false" ShowProp="Volt_Nominal" Show_id="true" Show_Val="true" Pos="124,-8" rotation="0" hflip="-1" vflip="1" label="DcMotor-14" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="250 _RPM" Volt_Nominal="12 V" Resistance="100 Ω" />
+
+<item itemtype="DcMotor" CircId="DcMotor-15" mainComp="false" ShowProp="Volt_Nominal" Show_id="true" Show_Val="true" Pos="-252,664" rotation="0" hflip="1" vflip="1" label="DcMotor-15" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="250 _RPM" Volt_Nominal="12 V" Resistance="100 Ω" />
+
+<item itemtype="DcMotor" CircId="DcMotor-16" mainComp="false" ShowProp="Volt_Nominal" Show_id="true" Show_Val="true" Pos="124,664" rotation="0" hflip="-1" vflip="1" label="DcMotor-16" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="250 _RPM" Volt_Nominal="12 V" Resistance="100 Ω" />
+
+<item itemtype="Battery" CircId="Battery-18" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-352,524" rotation="0" hflip="1" vflip="1" label="Battery-18" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="12 V" Resistance="1 mΩ" />
+
+<item itemtype="Battery" CircId="Battery-21" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="228,480" rotation="0" hflip="1" vflip="1" label="Battery-21" idLabPos="-18,-22" labelrot="0" valLabPos="-10,10" valLabRot="0" Voltage="12 V" Resistance="1 mΩ" />
+
+<item itemtype="SR04" CircId="SR04-33" mainComp="false" Show_id="false" Show_Val="false" Pos="116,-456" rotation="0" hflip="1" vflip="1" label="SR04-33" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" Slider="false" />
+
+<item itemtype="SR04" CircId="SR04-34" mainComp="false" Show_id="false" Show_Val="false" Pos="-248,-452" rotation="0" hflip="1" vflip="1" label="SR04-34" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" Slider="false" />
+
+<item itemtype="SR04" CircId="SR04-35" mainComp="false" Show_id="false" Show_Val="false" Pos="-416,-376" rotation="0" hflip="1" vflip="1" label="SR04-35" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" Slider="false" />
+
+<item itemtype="SR04" CircId="SR04-36" mainComp="false" Show_id="false" Show_Val="false" Pos="-72,-528" rotation="0" hflip="1" vflip="1" label="SR04-36" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" Slider="false" />
+
+<item itemtype="SR04" CircId="SR04-37" mainComp="false" Show_id="false" Show_Val="false" Pos="288,-376" rotation="0" hflip="1" vflip="1" label="SR04-37" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" Slider="false" />
+
+<item itemtype="Subcircuit" CircId="devkitC-38" mainComp="false" Show_id="true" Show_Val="false" Pos="-100,-296" rotation="0" hflip="1" vflip="1" label="devkitC-38" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Esp32-2" Program="../Arduino/1.sensor_sim/build/esp32.esp32.esp32/sensor_sim.ino.merged.bin" />
+</item>
+
+<item itemtype="TextComponent" CircId="TextComponent-39" mainComp="false" Show_id="false" Show_Val="false" Pos="-638.111,-240.271" rotation="0" hflip="1" vflip="1" label="TextComponent-39" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="3 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000000" Font_Size="13 _px" Fixed_Width="false" Text="All the sensor GND will be routed to the &#xa;ESP32 GND and all the VCCs to tthe ESP 5V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-41" mainComp="false" Show_id="false" Show_Val="false" Pos="-180,568" rotation="0" hflip="1" vflip="1" label="Tunnel-41" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CMN_GND" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-43" mainComp="false" Show_id="false" Show_Val="false" Pos="-340,568" rotation="0" hflip="1" vflip="1" label="Tunnel-43" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CMN_GND" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-45" mainComp="false" Show_id="false" Show_Val="false" Pos="0,560" rotation="0" hflip="1" vflip="1" label="Tunnel-45" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CMN_GND" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-47" mainComp="false" Show_id="false" Show_Val="false" Pos="232,556" rotation="0" hflip="1" vflip="1" label="Tunnel-47" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CMN_GND" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-49" mainComp="false" Show_id="false" Show_Val="false" Pos="40,-152" rotation="0" hflip="1" vflip="1" label="Tunnel-49" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CMN_GND" IsBus="false" />
+
+<item itemtype="Ground" CircId="Ground-51" mainComp="false" Show_id="false" Show_Val="false" Pos="-60,640" rotation="0" hflip="1" vflip="1" label="Ground-51" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Tunnel" CircId="Tunnel-52" mainComp="false" Show_id="false" Show_Val="false" Pos="-80,616" rotation="0" hflip="1" vflip="1" label="Tunnel-52" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CMN_GND" IsBus="false" />
+
+<item itemtype="Node" CircId="Node-6" mainComp="false" Pos="-156,496" />
+
+<item itemtype="Node" CircId="Node-7" mainComp="false" Pos="-164,456" />
+
+<item itemtype="Node" CircId="Node-8" mainComp="false" Pos="32,460" />
+
+<item itemtype="Node" CircId="Node-9" mainComp="false" Pos="16,476" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="L298P-5-IN1" endpinid="devkitC-1-G13" pointList="-188,508,-100,508" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="L298P-5-EnA" endpinid="Node-6-1" pointList="-188,468,-156,468,-156,496" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="L298P-5-IN2" endpinid="Node-6-0" pointList="-188,500,-156,500,-156,496" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="Node-6-2" endpinid="devkitC-1-G12" pointList="-156,496,-120,496,-120,492,-100,492" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="L298P-5-IN3" endpinid="devkitC-1-G14" pointList="-188,492,-140,492,-140,484,-100,484" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="L298P-5-IN4" endpinid="Node-7-1" pointList="-188,484,-164,484,-164,456" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="L298P-5-EnB" endpinid="Node-7-0" pointList="-188,460,-164,460,-164,456" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="Node-7-2" endpinid="devkitC-1-G27" pointList="-164,456,-132,456,-132,476,-100,476" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="L298P-4-IN1" endpinid="devkitC-1-G26" pointList="60,452,60,292,-128,292,-128,468,-100,468" />
+
+<item itemtype="Connector" uid="Connector-13" startpinid="L298P-4-EnA" endpinid="Node-8-1" pointList="60,492,32,492,32,460" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="L298P-4-IN2" endpinid="Node-8-0" pointList="60,460,32,460" />
+
+<item itemtype="Connector" uid="Connector-15" startpinid="Node-8-2" endpinid="devkitC-1-G25" pointList="32,460,32,316,-120,316,-120,460,-100,460" />
+
+<item itemtype="Connector" uid="Connector-18" startpinid="L298P-4-EnB" endpinid="Node-9-1" pointList="60,500,16,500,16,476" />
+
+<item itemtype="Connector" uid="Connector-19" startpinid="L298P-4-IN4" endpinid="Node-9-0" pointList="60,476,16,476" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="Node-9-2" endpinid="devkitC-1-G32" pointList="16,476,16,332,-112,332,-112,444,-100,444" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="Fixed Voltage-10-outnod" endpinid="devkitC-1-5V" pointList="-120,540,-100,540" />
+
+<item itemtype="Connector" uid="Connector-28" startpinid="L298P-4-IN3" endpinid="devkitC-1-G33" pointList="60,468,40,468,40,408,72,408,72,284,-136,284,-136,452,-100,452" />
+
+<item itemtype="Connector" uid="Connector-29" startpinid="DcMotor-14-rPin" endpinid="L298P-4-OUT1" pointList="84,-8,84,360,120,360,120,452,108,452" />
+
+<item itemtype="Connector" uid="Connector-30" startpinid="L298P-4-OUT2" endpinid="DcMotor-14-lPin" pointList="108,460,164,460,164,-8" />
+
+<item itemtype="Connector" uid="Connector-31" startpinid="DcMotor-16-rPin" endpinid="L298P-4-OUT3" pointList="84,664,84,536,120,536,120,468,108,468" />
+
+<item itemtype="Connector" uid="Connector-32" startpinid="DcMotor-16-lPin" endpinid="L298P-4-OUT4" pointList="164,664,164,476,108,476" />
+
+<item itemtype="Connector" uid="Connector-33" startpinid="DcMotor-15-rPin" endpinid="L298P-5-OUT1" pointList="-212,664,-212,540,-244,540,-244,508,-236,508" />
+
+<item itemtype="Connector" uid="Connector-34" startpinid="DcMotor-15-lPin" endpinid="L298P-5-OUT2" pointList="-292,664,-292,500,-236,500" />
+
+<item itemtype="Connector" uid="Connector-35" startpinid="DcMotor-13-lPin" endpinid="L298P-5-OUT4" pointList="-292,-8,-292,484,-236,484" />
+
+<item itemtype="Connector" uid="Connector-36" startpinid="DcMotor-13-rPin" endpinid="L298P-5-OUT3" pointList="-212,-8,-212,372,-244,372,-244,492,-236,492" />
+
+<item itemtype="Connector" uid="Connector-37" startpinid="Battery-18-lPin" endpinid="L298P-5-Vs" pointList="-368,524,-368,468,-236,468" />
+
+<item itemtype="Connector" uid="Connector-42" startpinid="Battery-21-lPin" endpinid="L298P-4-Vs" pointList="212,480,208,480,208,492,108,492" />
+
+<item itemtype="Connector" uid="connector-67" startpinid="SR04-35-trigpin" endpinid="devkitC-38-G22" pointList="-416,-328,-416,-316,40,-316,40,-256,-12,-256" />
+
+<item itemtype="Connector" uid="connector-68" startpinid="SR04-36-trigpin" endpinid="devkitC-38-G05" pointList="-72,-480,-72,-332,-4,-332,-4,-200,-12,-200" />
+
+<item itemtype="Connector" uid="connector-69" startpinid="SR04-33-trigpin" endpinid="devkitC-38-G19" pointList="116,-408,116,-216,-12,-216" />
+
+<item itemtype="Connector" uid="connector-70" startpinid="SR04-34-trigpin" endpinid="devkitC-38-G17" pointList="-248,-404,-248,-320,12,-320,12,-192,-12,-192" />
+
+<item itemtype="Connector" uid="connector-71" startpinid="SR04-33-outpin" endpinid="devkitC-38-G21" pointList="124,-408,124,-232,-12,-232" />
+
+<item itemtype="Connector" uid="connector-72" startpinid="SR04-36-outpin" endpinid="devkitC-38-G18" pointList="-64,-480,-64,-340,4,-340,4,-208,-12,-208" />
+
+<item itemtype="Connector" uid="connector-73" startpinid="SR04-37-trigpin" endpinid="devkitC-38-G25" pointList="288,-328,288,-84,-156,-84,-156,-208,-100,-208" />
+
+<item itemtype="Connector" uid="connector-74" startpinid="SR04-35-outpin" endpinid="devkitC-38-G23" pointList="-408,-328,-408,-300,-308,-300,-308,-348,56,-348,56,-264,-12,-264" />
+
+<item itemtype="Connector" uid="connector-75" startpinid="SR04-34-outpin" endpinid="devkitC-38-G16" pointList="-240,-404,-240,-328,20,-328,20,-184,-12,-184" />
+
+<item itemtype="Connector" uid="connector-76" startpinid="SR04-37-outpin" endpinid="devkitC-38-G26" pointList="296,-328,296,-96,-144,-96,-144,-200,-100,-200" />
+
+<item itemtype="Connector" uid="Connector-96" startpinid="devkitC-1-G05" endpinid="devkitC-38-G27" pointList="-12,468,-8,468,-8,-76,-112,-76,-112,-192,-100,-192" />
+
+<item itemtype="Connector" uid="Connector-103" startpinid="devkitC-38-G32" endpinid="devkitC-1-G04" pointList="-100,-224,-124,-224,-124,-4,8,-4,8,492,-12,492" />
+
+<item itemtype="Connector" uid="Connector-115" startpinid="Battery-18-rPin" endpinid="Tunnel-43-pin" pointList="-336,524,-336,568,-340,568" />
+
+<item itemtype="Connector" uid="Connector-117" startpinid="Tunnel-41-pin" endpinid="devkitC-1-GND3" pointList="-180,568,-176,568,-176,520,-108,520,-108,500,-100,500" />
+
+<item itemtype="Connector" uid="Connector-126" startpinid="Battery-21-rPin" endpinid="Tunnel-47-pin" pointList="244,480,244,556,232,556" />
+
+<item itemtype="Connector" uid="Connector-130" startpinid="devkitC-38-GND1" endpinid="Tunnel-49-pin" pointList="-12,-272,48,-272,48,-152,40,-152" />
+
+<item itemtype="Connector" uid="Connector-131" startpinid="Tunnel-45-pin" endpinid="devkitC-1-GND1" pointList="0,560,0,396,-12,396" />
+
+<item itemtype="Connector" uid="Connector-132" startpinid="Tunnel-52-pin" endpinid="Ground-51-Gnd" pointList="-80,616,-60,616,-60,624" />
+
+</circuit>
