@@ -4,9 +4,6 @@
 
 ## Category
 Robo Grand Prix — Elimination Round.
-Target Dimensions: 20*30cm
-Target Weight: 4kg
-Platform: ESP32
 
 ## Project Summary
 An autonomous 4WD skid-steer robot that navigates a tunnel-style track
@@ -30,7 +27,7 @@ all NAMI decision logic, and a **Motor board** that just executes
 whatever drive command it's sent — keeping the safety-critical motor
 control simple and isolated from the decision logic.
 
-See `Folder A/sensor_board/ALGORITHM.md` for the full logic writeup and
+See `Source Code/sensor_board/ALGORITHM.md` for the full logic writeup and
 flowchart.
 
 ## Testing & Verification
@@ -72,15 +69,15 @@ TB6612FNG driver.
 ## Directory Map
 
 ```
-├── Folder A/                    # Source Code
+├── Source Code/                    # Source Code
 │   ├── sensor_board/             # Decision-brain firmware (NAMI logic)
 │   │   ├── src/                  # Sensor reading, pose tracking, NAMI, UART
 │   │   ├── ALGORITHM.md          # Full NAMI logic explanation + flowchart
 │   │   └── README.md             # Build/simulate instructions for this board
 │   └── motor_board/               # Motor-executor firmware
 │       └── motor_board.ino        # Skid-steer drive, encoders, e-stop failsafe
-├── Folder B/                    # Designs (CAD, wiring diagrams, etc.)
-└── Folder C/                    # [fill in: any remaining rubric-required folder]
+├── Designs/                    # Designs (CAD, wiring diagrams, etc.)
+└── Documentation/                    # [fill in: any remaining rubric-required folder]
 ```
 
 ## Hardware
@@ -89,8 +86,8 @@ drivers, 5-sensor ultrasonic front array, 1–2 digital IR backup sensors,
 MPU6050 IMU, split across two ESP32 boards linked by UART, with a dual
 e-stop (physical + RF) wired to a shared cutoff relay.
 
-**Weight:** [TBD]
-**Dimensions:** [TBD]
+**Weight:** ~20*30cm
+**Dimensions:** ~4kg
 
 ## Team
 - **Nakokutemwa Mapala** — Lead, Background Research, 3D Modelling, Coding
