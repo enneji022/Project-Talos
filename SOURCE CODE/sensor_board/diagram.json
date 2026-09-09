@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "author": "Robo Grand Prix team",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": -100, "left": -100, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "us_front",   "top": -250, "left": -170, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "us_left45",  "top": -250, "left": -50,  "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "us_right45", "top": -250, "left": 70,   "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "us_left90",   "top": -350, "left": -50, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "us_right90",  "top": -350, "left": 70,  "attrs": {} },
+    { "type": "wokwi-mpu6050", "id": "imu1", "top": 50, "left": -170, "attrs": {} },
+    { "type": "wokwi-pushbutton", "id": "ir_front_btn", "top": 50, "left": -50, "attrs": { "color": "yellow" } }
+  ],
+  "connections": [
+    ["esp:TX0", "$serialMonitor:RX", "", []],
+    ["esp:RX0", "$serialMonitor:TX", "", []],
+
+    ["esp:D25", "us_front:TRIG",   "green", []],
+    ["esp:D34", "us_front:ECHO",   "blue",  []],
+    ["esp:D26", "us_left45:TRIG",  "green", []],
+    ["esp:D35", "us_left45:ECHO",  "blue",  []],
+    ["esp:D27", "us_right45:TRIG", "green", []],
+    ["esp:D36", "us_right45:ECHO", "blue",  []],
+    ["esp:D14", "us_left90:TRIG",  "green", []],
+    ["esp:D39", "us_left90:ECHO",  "blue",  []],
+    ["esp:D13", "us_right90:TRIG", "green", []],
+    ["esp:D4",  "us_right90:ECHO", "blue",  []],
+
+    ["esp:VIN", "us_front:VCC",   "red", []],
+    ["esp:VIN", "us_left45:VCC",  "red", []],
+    ["esp:VIN", "us_right45:VCC", "red", []],
+    ["esp:VIN", "us_left90:VCC",  "red", []],
+    ["esp:VIN", "us_right90:VCC", "red", []],
+    ["esp:GND.1", "us_front:GND",   "black", []],
+    ["esp:GND.1", "us_left45:GND",  "black", []],
+    ["esp:GND.1", "us_right45:GND", "black", []],
+    ["esp:GND.1", "us_left90:GND",  "black", []],
+    ["esp:GND.1", "us_right90:GND", "black", []],
+
+    ["esp:3V3", "imu1:VCC", "red", []],
+    ["esp:GND.2", "imu1:GND", "black", []],
+    ["esp:D21", "imu1:SDA", "limegreen", []],
+    ["esp:D22", "imu1:SCL", "gold", []],
+
+    ["esp:D5", "ir_front_btn:1.l", "green", []],
+    ["ir_front_btn:2.l", "esp:GND.3", "black", []]
+  ]
+}
